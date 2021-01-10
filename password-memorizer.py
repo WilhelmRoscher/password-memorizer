@@ -1,6 +1,6 @@
 import hashlib, os, csv, getpass
 
-version = "1.0"
+version = "1.1"
 pwFilePath = "pw-memorizer-hashes.csv"
 hashIterations = 1000000
 
@@ -115,7 +115,7 @@ elif action == 2:
 
     pwSaltHash = passwords[lineNumber-1]["Hash"]
 
-    print("\nPracitce starts. (enter e to exit)\n")
+    print("\nPractice starts. (enter e to exit)\n")
 
     correct = 0
     wrong = 0
