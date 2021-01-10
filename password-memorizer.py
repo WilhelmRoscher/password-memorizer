@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import hashlib, os, csv, getpass
 
 version = "1.1"
