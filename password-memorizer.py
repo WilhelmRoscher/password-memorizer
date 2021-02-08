@@ -3,8 +3,9 @@
 import hashlib, os, csv, getpass
 
 version = "1.1"
-pwFilePath = "pw-memorizer-hashes.csv"
-hashIterations = 1000000
+progpath = os.path.dirname(__file__)
+pwFilePath = os.path.join(progpath, 'pw-memorizer-hashes.csv')
+hashIterations = 10000000
 
 def initialCreationCSV():
     line = ['Name', 'Hash']
